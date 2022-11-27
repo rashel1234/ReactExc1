@@ -4,11 +4,11 @@ import Product from "./components/Product";
 function App() {
 
   const products = [
-    { title: 'Soap', price: 20, image: "shampoo.jpg" },
-    { title: 'Shampoo', price: 25, image: "" },
-    { title: 'Conditioner', price: 25, image: "" },
-    { title: 'Body Lotion', price: 30, image: "" },
-    { title: 'Peeling Cream', price: 35, image: "" }
+    { title: 'Soap', price: "5$", image: "soap.jpg" },
+    { title: 'Shampoo', price: "10$", image: "shampoo.jpg" },
+    { title: 'Conditioner', price: "10$", image: "conditioner.jpg" },
+    { title: 'Body Lotion', price: "15$", image: "lotion.jpg" },
+    { title: 'Peeling Cream', price: "20$", image: "peeling.jpg" }
   ];
   return (
     <div>
